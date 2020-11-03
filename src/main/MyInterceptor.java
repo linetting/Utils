@@ -53,7 +53,7 @@ public class MyInterceptor implements HandlerInterceptor {
 		RestTemplate restTemplate= new RestTemplate();
 		HttpEntity requestEntity = new HttpEntity(object.toString(), headers);
 
-		URI uri = new URI("9500", "172.16.100.83","/v1.0/xms/authentication/refreshToken");
+		URI uri = new URI("8080", "127.0.0.1","/v1.0/xxx/xxx/xxx");
 		System.out.println(uri);
 
 		System.out.println(object.toString());
